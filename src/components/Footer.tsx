@@ -8,8 +8,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="md:col-span-1">
           <Link to="/" className="text-2xl font-black tracking-tighter uppercase flex items-center gap-1">
-            <span className="bg-tool text-grip px-2 py-0.5 rounded-md">Fix</span>
-            <span>Técnica</span>
+            <span className="bg-tool text-grip px-2 py-0.5 rounded-md">Rh</span>
+            <span>net</span>
           </Link>
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
             Assistência técnica de eletrônicos em Jacareí. Notebooks, smartphones, tablets e mais.

@@ -27,8 +27,8 @@ export function Header() {
       <header className="sticky top-0 z-40 bg-chassis border-b-4 border-grip">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center gap-4">
           <Link to="/" className="text-xl sm:text-2xl font-black tracking-tighter uppercase flex items-center gap-1">
-            <span className="bg-tool px-2 py-0.5 rounded-md border-2 border-grip">Fix</span>
-            <span>Técnica</span>
+            <span className="bg-tool px-2 py-0.5 rounded-md border-2 border-grip">Rh</span>
+            <span>net</span>
           </Link>
 
           <div className="hidden md:flex gap-6 font-bold uppercase tracking-wide text-sm">

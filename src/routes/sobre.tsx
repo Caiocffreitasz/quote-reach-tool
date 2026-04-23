@@ -7,13 +7,13 @@ import { BUSINESS, telHref } from "@/lib/business";
 export const Route = createFileRoute("/sobre")({
   head: () => ({
     meta: [
-      { title: "Sobre — FixTécnica · Assistência Técnica em Jacareí" },
+      { title: "Sobre — Rhnet · Assistência Técnica em Jacareí" },
       {
         name: "description",
         content:
-          "Conheça a FixTécnica: 14 anos consertando notebooks, smartphones e tablets em Jacareí com honestidade, agilidade e garantia.",
+          "Conheça a Rhnet: 14 anos consertando notebooks, smartphones e tablets em Jacareí com honestidade, agilidade e garantia.",
       },
-      { property: "og:title", content: "Sobre a FixTécnica" },
+      { property: "og:title", content: "Sobre a Rhnet" },
       { property: "og:description", content: "Honestidade, agilidade e garantia há mais de uma década." },
     ],
   }),
@@ -40,7 +40,7 @@ function AboutPage() {
           <h1 className="text-5xl sm:text-6xl mt-4 leading-[0.95]">14 anos consertando o que parecia perdido.</h1>
           <div className="mt-6 space-y-4 text-lg font-semibold text-chassis-dark normal-case tracking-normal">
             <p>
-              A <strong>FixTécnica</strong> nasceu em Jacareí com uma missão simples: oferecer assistência técnica de eletrônicos com a honestidade que falta no mercado.
+              A <strong>Rhnet</strong> nasceu em Jacareí com uma missão simples: oferecer assistência técnica de eletrônicos com a honestidade que falta no mercado.
             </p>
             <p>
               Em mais de uma década na bancada, já recuperamos milhares de aparelhos — notebooks, smartphones, tablets e muito mais. Cada equipamento que entra é tratado como se fosse nosso.

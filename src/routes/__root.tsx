@@ -31,14 +31,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "FixTécnica — Assistência Técnica de Eletrônicos em Jacareí" },
+      { title: "Rhnet — Assistência Técnica de Eletrônicos em Jacareí" },
       {
         name: "description",
         content:
           "Conserto de notebooks, smartphones e tablets em Jacareí - SP. Diagnóstico rápido, garantia e atendimento honesto. Ligue (12) 98282-0129.",
       },
-      { name: "author", content: "FixTécnica" },
-      { property: "og:title", content: "FixTécnica — Assistência Técnica em Jacareí" },
+      { name: "author", content: "Rhnet" },
+      { property: "og:title", content: "Rhnet — Assistência Técnica em Jacareí" },
       { property: "og:description", content: "Conserto de notebooks, smartphones e tablets. Diagnóstico rápido e garantia." },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
@@ -59,7 +59,7 @@ export const Route = createRootRoute({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "FixTécnica",
+          name: "Rhnet",
           image: "",
           telephone: "+5512982820129",
           address: {

@@ -8,13 +8,13 @@ import { BUSINESS, telHref, waHref } from "@/lib/business";
 export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
-      { title: "Contato — FixTécnica · Assistência Técnica em Jacareí" },
+      { title: "Contato — Rhnet · Assistência Técnica em Jacareí" },
       {
         name: "description",
         content:
-          "Entre em contato com a FixTécnica em Jacareí. Telefone (12) 98282-0129, WhatsApp e formulário de orçamento online. Resposta em 15 minutos.",
+          "Entre em contato com a Rhnet em Jacareí. Telefone (12) 98282-0129, WhatsApp e formulário de orçamento online. Resposta em 15 minutos.",
       },
-      { property: "og:title", content: "Contato — FixTécnica" },
+      { property: "og:title", content: "Contato — Rhnet" },
       { property: "og:description", content: "Telefone, WhatsApp e formulário de orçamento. Resposta em 15 minutos." },
     ],
   }),
@@ -102,7 +102,7 @@ function ContactPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-12">
         <div className="border-4 border-grip rounded-2xl overflow-hidden shadow-brutal">
           <iframe
-            title="Mapa FixTécnica"
+            title="Mapa Rhnet"
             src={`https://www.google.com/maps?q=${encodeURIComponent(BUSINESS.address.full)}&output=embed`}
             width="100%"
             height="400"
