@@ -17,7 +17,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-black tracking-widest text-tool mb-4">Contato</h4>
+          <h3 className="text-sm font-black tracking-widest text-tool mb-4">Contato</h3>
           <ul className="space-y-3 text-sm">
             <li>
               <a href={telHref} className="flex items-start gap-2 hover:text-tool">
