@@ -17,7 +17,7 @@ export const BUSINESS = {
   hours: [
     { day: "Segunda-feira", time: "09:00 – 18:00", open: true },
     { day: "Terça-feira", time: "09:00 – 18:00", open: true },
-    { day: "Quarta-feira", time: "Fechado", open: false },
+    { day: "Quarta-feira", time: "09:00 – 18:00", open: true },
     { day: "Quinta-feira", time: "09:00 – 18:00", open: true },
     { day: "Sexta-feira", time: "09:00 – 18:00", open: true },
     { day: "Sábado", time: "09:00 – 12:00", open: true },
