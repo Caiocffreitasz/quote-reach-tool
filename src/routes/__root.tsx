@@ -78,6 +78,7 @@ export const Route = createRootRoute({
           openingHours: [
             "Mo 09:00-18:00",
             "Tu 09:00-18:00",
+            "We 09:00-18:00",
             "Th 09:00-18:00",
             "Fr 09:00-18:00",
             "Sa 09:00-12:00",
