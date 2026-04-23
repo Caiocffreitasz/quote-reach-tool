@@ -39,7 +39,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-black tracking-widest text-tool mb-4">Horário</h4>
+          <h3 className="text-sm font-black tracking-widest text-tool mb-4">Horário</h3>
           <ul className="space-y-1.5 text-sm">
             {BUSINESS.hours.map((h) => (
               <li key={h.day} className="flex justify-between gap-3">
@@ -51,7 +51,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-black tracking-widest text-tool mb-4">Navegação</h4>
+          <h3 className="text-sm font-black tracking-widest text-tool mb-4">Navegação</h3>
           <ul className="space-y-2 text-sm">
             <li><Link to="/" className="hover:text-tool">Início</Link></li>
             <li><Link to="/servicos" className="hover:text-tool">Serviços</Link></li>
