@@ -218,7 +218,7 @@ function HomePage() {
             <h2 className="text-3xl sm:text-4xl mt-2">Onde estamos</h2>
             <div className="mt-5 space-y-3 text-sm font-semibold normal-case tracking-normal">
               <p className="flex items-start gap-2"><MapPin className="size-5 shrink-0 mt-0.5" /> {BUSINESS.address.full}</p>
-              <p className="flex items-start gap-2"><Clock className="size-5 shrink-0 mt-0.5" /> Seg–Sex 9h–18h · Sáb 9h–12h · Quarta fechado</p>
+              <p className="flex items-start gap-2"><Clock className="size-5 shrink-0 mt-0.5" /> Seg–Sex 9h–18h · Sáb 9h–12h</p>
             </div>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(BUSINESS.address.full)}`}
