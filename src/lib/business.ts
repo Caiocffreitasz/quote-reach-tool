@@ -1,6 +1,6 @@
 // Single source of truth for business info — edit here to update site-wide.
 export const BUSINESS = {
-  name: "FixTécnica",
+  name: "Rhnet",
   tagline: "Assistência Técnica de Eletrônicos em Jacareí",
   phone: "(12) 98282-0129",
   phoneE164: "+5512982820129",
