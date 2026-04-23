@@ -37,7 +37,7 @@ function HomePage() {
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-balance leading-[0.9]">
             Seu aparelho{" "}
             <span className="bg-tool px-3 pb-1 border-4 border-grip inline-block mt-2 rounded-xl shadow-brutal">
-              de volta à corrida.
+              de volta à vida.
             </span>
           </h1>
 
