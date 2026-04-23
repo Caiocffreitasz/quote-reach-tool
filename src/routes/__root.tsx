@@ -37,12 +37,17 @@ export const Route = createRootRoute({
         content:
           "Conserto de notebooks, smartphones e tablets em Jacareí - SP. Diagnóstico rápido, garantia e atendimento honesto. Ligue (12) 98282-0129.",
       },
-      { name: "author", content: "Rhnet" },
-      { property: "og:title", content: "Rhnet — Assistência Técnica em Jacareí" },
-      { property: "og:description", content: "Conserto de notebooks, smartphones e tablets. Diagnóstico rápido e garantia." },
+      { name: "author", content: "FixTécnica" },
+      { property: "og:title", content: "Rhnet — Assistência Técnica de Eletrônicos em Jacareí" },
+      { property: "og:description", content: "Loja de informática de Jacareí" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Rhnet — Assistência Técnica de Eletrônicos em Jacareí" },
+      { name: "description", content: "Loja de informática de Jacareí" },
+      { name: "twitter:description", content: "Loja de informática de Jacareí" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/053f06f8-5274-49ee-a8db-a22501ea5a3b/id-preview-c5383fbc--ac5a5739-d547-4e02-9640-3dc453cb2ce9.lovable.app-1776904619657.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/053f06f8-5274-49ee-a8db-a22501ea5a3b/id-preview-c5383fbc--ac5a5739-d547-4e02-9640-3dc453cb2ce9.lovable.app-1776904619657.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -59,7 +64,7 @@ export const Route = createRootRoute({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Rhnet",
+          name: "FixTécnica",
           image: "",
           telephone: "+5512982820129",
           address: {
