@@ -44,7 +44,7 @@ export function Footer() {
             {BUSINESS.hours.map((h) => (
               <li key={h.day} className="flex justify-between gap-3">
                 <span className="text-white/70">{h.day}</span>
-                <span className={h.open ? "" : "text-white/40"}>{h.time}</span>
+                <span className={h.open ? "" : "text-white/70"}>{h.time}</span>
               </li>
             ))}
           </ul>
