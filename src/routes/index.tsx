@@ -9,13 +9,13 @@ import heroBench from "@/assets/hero-bench.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "FixTécnica — Assistência Técnica de Eletrônicos em Jacareí" },
+      { title: "Rhnet — Assistência Técnica de Eletrônicos em Jacareí" },
       {
         name: "description",
         content:
           "Conserto de notebooks, smartphones e tablets em Jacareí - SP. Orçamento rápido, atendimento honesto e garantia. Ligue agora.",
       },
-      { property: "og:title", content: "FixTécnica — Conserto de Eletrônicos em Jacareí" },
+      { property: "og:title", content: "Rhnet — Conserto de Eletrônicos em Jacareí" },
       { property: "og:description", content: "Diagnóstico rápido, atendimento honesto e garantia em todo serviço." },
     ],
   }),
@@ -143,7 +143,7 @@ function HomePage() {
       <section className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-10 items-start">
           <div>
-            <span className="text-grip font-black text-xs uppercase tracking-widest bg-tool px-2 py-1 rounded-md border-2 border-grip">Por que a FixTécnica</span>
+            <span className="text-grip font-black text-xs uppercase tracking-widest bg-tool px-2 py-1 rounded-md border-2 border-grip">Por que a Rhnet</span>
             <h2 className="text-4xl sm:text-5xl mt-4 leading-[0.95]">Honestidade, agilidade e garantia.</h2>
             <p className="mt-4 text-lg font-semibold text-chassis-dark normal-case tracking-normal max-w-prose">
               Somos uma assistência técnica de bairro com a precisão de um laboratório. Diagnosticamos com transparência e só executamos o reparo após sua aprovação.

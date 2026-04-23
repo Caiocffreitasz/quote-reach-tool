@@ -7,13 +7,13 @@ import { BUSINESS, telHref } from "@/lib/business";
 export const Route = createFileRoute("/servicos")({
   head: () => ({
     meta: [
-      { title: "Serviços — FixTécnica · Assistência Técnica em Jacareí" },
+      { title: "Serviços — Rhnet · Assistência Técnica em Jacareí" },
       {
         name: "description",
         content:
           "Reparo de notebooks, smartphones, tablets e manutenção geral em Jacareí. Troca de tela, bateria, formatação, recuperação de dados e mais.",
       },
-      { property: "og:title", content: "Serviços de Assistência Técnica — FixTécnica" },
+      { property: "og:title", content: "Serviços de Assistência Técnica — Rhnet" },
       { property: "og:description", content: "Notebooks, smartphones, tablets e manutenção geral em Jacareí/SP." },
     ],
   }),
