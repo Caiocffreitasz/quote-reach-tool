@@ -57,10 +57,12 @@ export function QuoteForm({ id = "orcamento" }: { id?: string }) {
       </div>
 
       <div>
-        <label className="block text-xs font-black uppercase tracking-widest mb-1.5">Aparelho</label>
+        <label htmlFor="device" className="block text-xs font-black uppercase tracking-widest mb-1.5">Aparelho</label>
         <select
+          id="device"
           name="device"
           required
+          aria-label="Aparelho"
           className="w-full bg-white border-2 border-grip rounded-lg px-4 py-3 font-semibold focus:outline-none focus:ring-4 focus:ring-tool"
           defaultValue=""
         >
