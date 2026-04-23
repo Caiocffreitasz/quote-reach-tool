@@ -171,7 +171,7 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-10">
             <span className="text-grip font-black text-xs uppercase tracking-widest">O que dizem os clientes</span>
-            <h2 className="text-4xl sm:text-5xl mt-2">Avaliações reais do Google</h2>
+            <h2 className="text-4xl sm:text-5xl mt-2">Avaliações do Google</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-5">
             {TESTIMONIALS.map((t) => (
