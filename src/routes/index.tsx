@@ -58,7 +58,7 @@ function HomePage() {
               className="flex-1 bg-white border-4 border-grip rounded-xl px-6 py-4 flex flex-col items-center justify-center text-center shadow-brutal hover:translate-y-[3px] hover:shadow-brutal-sm active:translate-y-[6px] active:shadow-none transition-all"
             >
               <span className="font-black uppercase text-xl">Pedir orçamento</span>
-              <span className="font-bold text-sm text-chassis-dark normal-case tracking-normal">Resposta em 15 min</span>
+              <span className="font-bold text-sm text-chassis-dark normal-case tracking-normal">Sem compromisso</span>
             </a>
           </div>
 
