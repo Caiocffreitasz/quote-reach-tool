@@ -47,7 +47,7 @@ export function QuoteForm({ id = "orcamento" }: { id?: string }) {
       <div>
         <h3 className="text-2xl sm:text-3xl">Pedir orçamento</h3>
         <p className="text-sm font-semibold text-chassis-dark mt-1 normal-case tracking-normal">
-          Preencha os dados e responderemos em até 15 minutos.
+          Preencha os dados e entraremos em contato pelo WhatsApp.
         </p>
       </div>
 

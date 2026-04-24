@@ -12,10 +12,10 @@ export const Route = createFileRoute("/contato")({
       {
         name: "description",
         content:
-          "Entre em contato com a Rhnet em Jacareí. Telefone (12) 98282-0129, WhatsApp e formulário de orçamento online. Resposta em 15 minutos.",
+          "Entre em contato com a Rhnet em Jacareí. Telefone (12) 98282-0129, WhatsApp e formulário de orçamento online.",
       },
       { property: "og:title", content: "Contato — Rhnet" },
-      { property: "og:description", content: "Telefone, WhatsApp e formulário de orçamento. Resposta em 15 minutos." },
+      { property: "og:description", content: "Telefone, WhatsApp e formulário de orçamento online." },
     ],
   }),
   component: ContactPage,
@@ -32,7 +32,7 @@ function ContactPage() {
         </span>
         <h1 className="text-5xl sm:text-6xl mt-4 leading-[0.95]">Entre em contato.</h1>
         <p className="mt-4 text-lg font-semibold text-chassis-dark max-w-2xl normal-case tracking-normal">
-          Escolha o canal mais confortável. Respondemos rápido — geralmente em menos de 15 minutos no horário de funcionamento.
+          Escolha o canal mais confortável. Estamos prontos para atender você.
         </p>
       </section>
 
