@@ -64,7 +64,6 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between gap-2 text-xs text-white/50">
           <span>© {new Date().getFullYear()} {BUSINESS.name}. Todos os direitos reservados.</span>
-          <span className="flex items-center gap-2"><Clock className="size-3.5" /> Resposta em até 15 minutos</span>
         </div>
       </div>
     </footer>
