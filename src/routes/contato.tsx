@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Phone, MapPin, Clock, MessageCircle, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { QuoteForm } from "@/components/QuoteForm";
@@ -85,13 +85,6 @@ function ContactPage() {
             </ul>
           </div>
 
-          <div className="brutal-card-dark p-6 flex items-center gap-5">
-            <div className="bg-tool text-grip p-4 rounded-xl"><Mail className="size-7" strokeWidth={2.5} /></div>
-            <div>
-              <div className="text-xs font-black uppercase tracking-widest text-tool">E-mail</div>
-              <div className="text-lg mt-1 text-white">{BUSINESS.email}</div>
-            </div>
-          </div>
         </div>
 
         <div>
